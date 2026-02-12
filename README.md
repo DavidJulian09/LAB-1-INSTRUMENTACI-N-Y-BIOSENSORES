@@ -80,7 +80,7 @@ Una vez filtrada la señal se realizó la lectura y el cálculo de la frecuencia
         "MinPeakDistance", 1.5, ...
         "MinPeakProminence", 50);
 
-Para que el código determianara que picos fueran considerados validos y cuales no se uso "MinPeakDistance" y "MinPeakProminence", el primero se encarga de establecer una distancia mínima entre picos consecutivos, en nuestro caso usamos 1.5 segundos, con el propósito de no considerar picos oscilaciones de un mismo ciclo de exhalación; MinPeakProminence se encarga de establecer como pico los que poseen una diferencia de amplitud con el valle de su entorno, de ese modo el ruido no seria considerado como una respiración.
+Para que el código determinara que picos fueran considerados validos y cuales no se uso "MinPeakDistance" y "MinPeakProminence", el primero se encarga de establecer una distancia mínima entre picos consecutivos, en nuestro caso usamos 1.5 segundos, con el propósito de no considerar picos oscilaciones de un mismo ciclo de exhalación; MinPeakProminence se encarga de establecer como pico los que poseen una diferencia de amplitud con el valle de su entorno, de ese modo el ruido no seria considerado como una respiración.
 
 Un vez teniendo la cantidad picos correspondientes a las exhalciones y el tiempo de la toma (T), se puede realizar el cálculo de las respiraciones por minuto a través de la fórmula mostrada en el código
 
