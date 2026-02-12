@@ -60,7 +60,7 @@ La función "inputdlg" permite la apertura de una ventana que solicita el tiempo
 
 ### b) Filtros Empleados y Señal
 
-Una vez realizada la oma de los datos se prosiguió con su filtrado, en donde se emplearon dos; el primero fue un filtro de mediana que se encargaba de eliminar picos erráticos (ruido), mostrando lo cambios respiratorios de una forma más suave, todo lo anterior tomando una ventana de muestras vecinas y reemplazando su valor por la mediana.
+Una vez realizada la toma de los datos, se prosiguió con su filtrado, en donde se emplearon dos; el primero fue un filtro de mediana que se encargaba de eliminar picos erráticos (ruido), mostrando lo cambios respiratorios de una forma más suave, todo lo anterior tomando una ventana de muestras vecinas y reemplazando su valor por la mediana.
 
     %Filtro mediana
     senal_med = medfilt1(senal, 5);
