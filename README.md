@@ -20,7 +20,7 @@ Una vez determinado el sensor a usar, se prosiguió a hacer la adquisición de l
 
 _(Fig 1. Conección sensor MQ-135 y ESP32)_
 
-Como se observa el circuito carece de filtros análogos ya que la filtración de la señal se hará de forma digital (Parte B). Una vez realizada la toma de la señal por medio de arduino, se prosiguió con la comunicación serial entre arduino y Matlab donde se presentaron los resultados crudos de la señal antes de su posterior procesamiento (filtrado y métricas) por medio de gráficas, dichas gráficas se muestran a continuación, siendo la primera correspondiente a una respiración en resposo y la segunda a una respiración mientras se verbaliza.
+Como se observa el circuito carece de filtros análogos ya que la filtración de la señal se hará de forma digital (Parte B). Una vez realizada la toma de la señal por medio del microcontrolador, se prosiguió con la comunicación serial entre arduino y Matlab donde se presentaron los resultados crudos de la señal antes de su posterior procesamiento (filtrado y métricas) por medio de gráficas, dichas gráficas se muestran a continuación, siendo la primera correspondiente a una respiración en resposo y la segunda a una respiración mientras se verbaliza.
 
 <img width="766" height="630" alt="image" src="https://github.com/user-attachments/assets/f6bfdd38-02c9-4eb5-abfb-aafed2b5374f" />
 
