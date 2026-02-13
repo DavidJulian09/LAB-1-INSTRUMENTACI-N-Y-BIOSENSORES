@@ -109,6 +109,16 @@ _(Fig 5. Señal en Verbalización filtrada junto con frecuencia respiratoria)_
 
 Conforme a los resultados mostrados lo primero a destacar es la diferencia en las frecuencias en relación a si se está en reposo o verbalizando, durante el reposo las frecuencia resiratoria es regular y estable, en nuestro caso correspondio a 20rpm; en cambio mientras se habla la frecuencia disminuye (10rpm) y se vuelve irregular, esto se debe a las prolongaciones que hacemos mientras sostenemos un diálogo. Adicionalmente la amplitud también cambia, en reposo se presentaron picos con mayor amplitud, que contrasta con los de menor amplitud mientras se habla. Estos cambios en los patrones se discutiran más a fondo adelante.
 
+<img width="757" height="630" alt="image" src="https://github.com/user-attachments/assets/4a7ae4f7-dbc7-4a4d-94aa-0ccfe893d04a" />
+
+_(Fig 6. Espectro de frecuencias respiración en reposo)_
+
+<img width="757" height="630" alt="image" src="https://github.com/user-attachments/assets/803c302b-1c09-4749-a185-bcd63fc2b9c1" />
+
+_(Fig 7. Espectro de frecuencias respiración en verbalización)_
+
+Finalmente se hace la comparación de los espectros de frecuencia, donde se observa que en reposo las frecuencias se agrupan a valores más pequeños, en oposición a esto, mientras se habla las frecuencias respiratorias están más distribuidas a lo largo de todo el espectro, este se debe a que en el habla, la respiración al ser más irregular permite que más frecuencias hagan parte de su proceso.
+
 Realizando un breve análisis del alcance de nuestro sistema para detectar patologías, destacaría su capacidad de detectar alteraciones en la frecuencia respiratoria como apneas, ya que se podria programar para detectar y alertar de espacios donde hay ausencia de picos; adicionalmente se podría emplear para la detección de patrones irregulares en la respiración para enfermedades de trastornos en las vias aéreas; sin contar que por medio del estudio de la amplitud de los gases liberados se podría correlacionar con hipoventilación o hiperventilación.
 
 Por otro lado las limitaciones de este sistema incluye el hecho de que no es capás de diferenciar los gases exhalados ni sus concentraciones, sin mencionar que no es posible la medición de la presión torácica en la inspiración o exhalación, de mismo modo que no se podrian medir valores como el flujo o el volumen de cada fase de la respiración.
